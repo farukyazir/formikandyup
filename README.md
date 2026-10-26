@@ -1,16 +1,41 @@
-# React + Vite
+# 📚 Admin Dashboard — Book & Author Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, glassmorphism-themed Admin Dashboard for managing books and author records built with **React**, **Redux Toolkit**, and **CSS3**.
 
-Currently, two official plugins are available:
+[![Live Demo](https://img.shields.io/badge/Demo-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://formikandyu.netlify.app/)
+[![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/farukyazir/formikandyup)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ➕ **Dynamic Book Entry**: Modal form allowing users to submit new book details alongside author biographies and dates of birth.
+- ⚡ **Redux Toolkit State Management**: Centralized global state handling modal toggles (`isOpen`) and dynamic book list manipulation (`books`).
+- ✏️ **Inline Card Editing**: Dynamic inline transformation of book cards into editable fields for immediate real-time updates.
+- 🗑️ **Delete Record Operations**: Instant item removal using unique timestamp-based identifiers.
+- 👁️ **Show More / Show Less Toggle**: Expandable dynamic author details for streamlined UI density.
+- 🎨 **Glassmorphism & Neon UI**: Futuristic dark theme styling with glowing neon blue and cyan highlights.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack & Tools
+
+- **Frontend Core**: React 18 / JavaScript (ES6+)
+- **State Management**: Redux Toolkit (`@reduxjs/toolkit`), React-Redux
+- **Styling**: Modern CSS3 (Flexbox, Grid, Glassmorphism, CSS Custom Properties)
+- **Deployment**: Netlify CI/CD
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure you have [Node.js](https://nodejs.org/) (v16+) installed on your machine.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/farukyazir/formikandyup.git](https://github.com/farukyazir/formikandyup.git)
+   cd formikandyup
