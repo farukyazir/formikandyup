@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.heading{  background: linear-gradient(135deg, #0A1128, #0D1527);
+
+  color: aliceblue;
+  padding: 20px;
+  background: linear-gradient(135deg, #0A1128, #0D1527);
+}
+.heading button{
+  color:white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #635BFF;
+}
+.details-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0A1128, #0D1527);
+}
+.book-details{
+  display: flex;
+  margin: 20px;
+  background-color: white;
+  flex-direction: column;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 25px 5px rgba(0, 229, 255, 0.6);
+  padding: 10px;
+  border-radius: 10px;
+  gap: 10px;
+}
+.book-details input{
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #0A1128;
+}
+.book-details textarea{
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #0A1128;
+}
+.book-details label{
+  text-align: left;
+  width: 100%;
+}
+.add{
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #635BFF;
+}
+.card{
+  display: flex;
+  background: linear-gradient(135deg, #0A1128, #0D1527);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.firstcard{
+  background-color: white;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.secondcard{
+  background-color: white;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.buttons{
+  display: flex;
+   justify-content: space-between;
+   
+}
+.editbtn{
+  display: flex;
+  gap: 10px;
+}
+.editbtn button{
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.showbtn{
+  border: none;
+  text-decoration: underline;
+}
+.books p{
+  margin-top: 5px;
+  color: #0A1128;
+}
+.secondcard p{
+  color: #0A1128;
+  margin-top: 5px;
+}
+.edit{
+  background-color: #635BFF;
+  border: none;
+}
+
+.delete{
+  background-color: rgb(247, 62, 62);
+  border: none ;
+}
